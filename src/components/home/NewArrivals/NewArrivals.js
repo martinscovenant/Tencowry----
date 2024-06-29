@@ -48,14 +48,14 @@ const NewArrivals = () => {
   };
   return (
     <div className="w-full pb-16">
-      <Heading heading="New Arrivals" />
+      <Heading heading="Top Deals" />
       <Slider {...settings}>
         <div className="px-2">
           <Product
             _id="100001"
             img={newArrOne}
             productName="Round Table Clock"
-            price="44.00"
+            price="44,000.00"
             color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -66,7 +66,7 @@ const NewArrivals = () => {
             _id="100002"
             img={newArrTwo}
             productName="Smart Watch"
-            price="250.00"
+            price="250,000.00"
             color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -77,7 +77,7 @@ const NewArrivals = () => {
             _id="100003"
             img={newArrThree}
             productName="cloth Basket"
-            price="80.00"
+            price="80,000.00"
             color="Mixed"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -88,7 +88,7 @@ const NewArrivals = () => {
             _id="100004"
             img={newArrFour}
             productName="Funny toys for babies"
-            price="60.00"
+            price="60,000.00"
             color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -99,7 +99,7 @@ const NewArrivals = () => {
             _id="100005"
             img={newArrTwo}
             productName="Funny toys for babies"
-            price="60.00"
+            price="50,000.00"
             color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."

@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow: auto;
+  background-color: whitesmoke
+}
+
 @layer components {
   .hoverEffect {
     @apply duration-300 cursor-pointer;
@@ -15,7 +20,7 @@
 
 /* ============= NavLink active Start here ============== */
 nav .active li {
-  color: black;
+  color: orangered;
   font-weight: 600;
   text-decoration: 1px underline black;
 }

@@ -22,21 +22,28 @@ export const navBarList = [
   },
   {
     _id: 1002,
-    title: "Shop",
+    title: "TopDeals",
     link: "/shop",
   },
+
   {
     _id: 1003,
+    title: "Products",
+    link: "/Product",
+  },
+
+  {
+    _id: 1004,
     title: "About",
     link: "/about",
   },
   {
-    _id: 1004,
+    _id: 1005,
     title: "Contact",
     link: "contact",
   },
   {
-    _id: 1005,
+    _id: 1006,
     title: "Journal",
     link: "/journal",
   },

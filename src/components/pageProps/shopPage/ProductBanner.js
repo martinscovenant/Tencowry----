@@ -54,7 +54,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
                             Right Part STart here
         ======================================================== */}
       <div className="flex items-center gap-2 md:gap-6 mt-4 md:mt-0">
-        <div className="flex items-center gap-2 text-base text-[#767676] relative">
+        {/* <div className="flex items-center gap-2 text-base text-[#767676] relative">
           <label className="block">Sort by:</label>
           <select
             // onChange={(e) => setSelected(e.target.value)}
@@ -69,7 +69,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
           <span className="absolute text-sm right-2 md:right-4 top-2.5">
             <GoTriangleDown />
           </span>
-        </div>
+        </div> */}
         <div className="flex items-center gap-2 text-[#767676] relative">
           <label className="block">Show:</label>
           <select
