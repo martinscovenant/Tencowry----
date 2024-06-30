@@ -1,3 +1,27 @@
-header{
-    background-color: blue;
-}
+/* Define dark-mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .header {
+    background-color: #333333;
+    border-bottom-color: #444444;
+  }
+  
+  .dark-mode .hoverEffect:hover {
+    color: #ff5c40;
+  }
+  
+  .dark-mode .text-gray-200 {
+    color: #e0e0e0;
+  }
+  
+  .dark-mode .text-white {
+    color: #ffffff;
+  }
+  
+  .dark-mode .border-gray-300 {
+    border-color: #444444;
+  }
+  

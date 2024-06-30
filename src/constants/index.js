@@ -42,11 +42,11 @@ export const navBarList = [
     title: "Contact",
     link: "contact",
   },
-  {
-    _id: 1006,
-    title: "Journal",
-    link: "/journal",
-  },
+  // {
+  //   _id: 1006,
+  //   title: "Journal",
+  //   link: "/journal",
+  // },
 ];
 // =================== NavBarList End here ======================
 // =================== Special Offer data Start here ============

@@ -84,7 +84,7 @@ const Signin = () => {
   };
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-gray-100">
+    <div className="w-full h-screen flex items-center justify-center ">
       <form className="w-full lgl:w-[450px] bg-white shadow-lg rounded-lg flex items-center justify-center" onSubmit={handleSignin}>
         <div className="px-6 py-4 w-full h-[90%] flex flex-col justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-primeColor">
         {message && <p className="text-center text-green-600 font-titleFont mt-5">{message}</p>}
