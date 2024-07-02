@@ -235,7 +235,7 @@ const Signup = () => {
               type="checkbox"
             />
             <p className="text-sm text-primeColor">
-              I agree to the eMarket{" "}
+              I agree to the Tencowry{" "}
               <span className="text-blue-500">Terms of Service </span>and{" "}
               <span className="text-blue-500">Privacy Policy</span>.
             </p>
